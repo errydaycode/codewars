@@ -13,3 +13,5 @@ function smallEnough(a, limit){
 
 
 // refactored solution
+
+const smallEnough =(a,l) => a.filter((v) =>v>l).length > 0 ? false : true
