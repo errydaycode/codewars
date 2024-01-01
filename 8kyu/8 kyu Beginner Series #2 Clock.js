@@ -13,3 +13,5 @@ function past(h, m, s){
     return (((h*60)* 60000 ) + (m * 60000) + (s * 1000) )
 
 }
+
+const past2=(h, m, s)=>((h*60) + m) * 60000 + (s * 1000)
