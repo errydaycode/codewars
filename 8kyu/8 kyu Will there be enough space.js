@@ -21,4 +21,4 @@ function enough(cap, on, wait) {
     }
 }
 
-const enough =(cap, on, wait) => on + wait <= cap ? 0 : (on + wait) - cap
+const enough2 =(cap, on, wait) => on + wait <= cap ? 0 : (on + wait) - cap
